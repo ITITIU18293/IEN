@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IÊN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->  
+    <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">        <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="slick/slick.min.css">          <!-- https://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/templatemo-upright.css">
+
+    <link rel="icon" href="{{ url('img/logo.jpg') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('css/templatemo-upright.css') }}">
+
+    <script src="http://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.js"></script>
+
+<!--
+    
+TemplateMo 555 Upright
+
+https://templatemo.com/tm-555-upright
+
+-->
+</head>
+<body>    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Leftside bar -->
+            <div id="tm-sidebar" class="tm-sidebar"> 
+                <nav class="tm-nav">
+                    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div>
+                        <div class="tm-brand-box">
+                            <img src="img/logo.jpg" width="180px" height="180px" >
+                        </div>                
+                        <ul id="tm-main-nav">
+                            <li class="nav-item">                                
+                                <a href="#home" class="nav-link current">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-home nav-icon"></i>
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#gallery" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-images nav-icon"></i>
+                                    Trưng bày
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-user-friends nav-icon"></i>
+                                    Về chúng tôi
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-envelope nav-icon"></i>
+                                    Liên hệ
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#comments" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-comment nav-icon"></i>
+                                    Feedback
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer class="mb-3 tm-mt-100">
+                        Design: <a href="https://templatemo.com" target="_parent" rel="sponsored">TemplateMo</a>
+                    </footer>
+                </nav>
+            </div>
+            
+            <div class="tm-main">
+                <!-- Home section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-01.jpg"></div>                   
+                    <section id="home" class="tm-section">
+                        <h2 class="tm-text-primary">"Góc nhỏ" của IÊN.</h2>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="anhbia">
+                            <img src="img/1.jpg" width="700" height="200" >
+                        </div>
+                            <p>
+                                TRANH VẼ KÝ TÊN NGÀY CƯỚI <br>
+                                Việc lưu lại những lời chúc dễ thương, đầy yêu thương dành cho mình trong ngày cưới, bạn đã chọn được sản phẩm phù hợp cho ngày trọng đại của mình chưa? 
+                            </p>
+                            <p>
+                                Để IÊN gợi ý cho bạn dòng TRANH VẼ KÝ TÊN NGÀY CƯỚI, mang đậm dấu ấn cá nhân của hai bạn, thông qua hình vẽ minh họa từ ảnh thật của hai bạn, giúp không gian tiệc của bạn thêm xinh và lưu giữ trọn vẹn những lời chúc từ người thân,bạn bè trong ngày cưới của đời mình.
+                            </p>
+                            <div class="text-right">
+                                <a href="#gallery" class="btn btn-primary tm-btn-next">Xem thêm</a>
+                            </div> 
+                            {{-- <div class="col-lg-6 tm-col-home mb-4">
+                                <div class="tm-text-container">
+                                    <div class="tm-icon-container mb-5 mr-0 ml-auto">
+                                        <img src="img/2.jpg" width="300" height="200">
+                                    </div>                                 
+                                    <p>
+                                        Quisque tincidunt, sem rutrum euismod ornare, tortor arcu tempus 
+                                        lorem, accumsan suscipit mauris lorem at lorem. Praesent feugiat 
+                                        mi at tortor tincidunt, ac consequat ante cursus.
+                                    </p>
+                                   
+                                </div>
+                            </div> --}}
+                        </div>
+                        <hr class="tm-hr-short mb-5">
+                        <div class="row tm-row-home">                            
+                            <div class="tm-col-home tm-col-home-l">
+                                <div class="media mb-4">
+                                    <i class="fas fa-image fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">TRANH & ẢNH KÝ NGÀY CƯỚI</a>  
+                                        <p>
+                                            ẢNH KÝ TÊN NGÀY CƯỚI<br>
+                                            Bên cạnh Tranh vẽ ký tên, IÊN có "ẢNH CƯỚI KÝ TÊN" dòng sản phẩm được nhiều bạn khách lựa chọn và yêu thích hong hề thua kém gì  so với "người chị"  tranh VẼ của mình.<br>
+                                            "ẢNH CƯỚI KÝ TÊN" của IÊN đa dạng lựa chọn với nhiều mẫu thiết kế từ phong cách hiện đại, tinh tế, hay một chút hoài niệm với phong cách vintage, thậm chí bạn cũng có thể yêu cầu thiết kế riêng, IÊN sẵn sàng giúp bạn để bạn có 1 sản phẩm đúng ý nhất!<br>
+                                            Một sản phẩm giúp bạn lưu giữ lại khoảnh khắc ngày cưới, những lời chúc viết tay đáng yêu, ngọt ngào của người thân, bạn bè, thực sự có quá nhiều yêu thương trong 1 chiếc tranh ký. Một gợi ý nhỏ thú vị dành cho bạn!<br>
+                                            Bạn chỉ cần lựa hình & gửi cho IÊN những "chiếc" hình cưới lung linh xinh đẹp của bạn, còn lại để IÊN lo nha!<br>
+                                            Thông tin sản phẩm:<br>
+                                            - Size : 50x75 cm & 60x90 cm<br>
+                                            - Chất liệu: In công nghệ cao trên nền vải Canvas<br>
+                                            - Căng khung gỗ, có ván hậu<br>
+                                            - Thời gian hoàn thành : 2 -10 ngày ( gửi demo, in. và ship, linh hoạt theo đơn đặt hàng) </p>
+                                    </div>                                    
+                                </div>
+                                <div class="media mb-4">
+                                    <i class="fas fa-calendar fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">KHUNG LỊCH GỖ</a>  
+                                        <p>
+                                            ✨KHUNG LỊCH GỖ ĐỂ BÀN DECOR CHO PHÒNG THÊM XINH. ✨<br>
+                                            🌼 Với thiết kế tôi giản, màu sắc trang nhã tinh tế,  lịch thiết kế dạng lật tay có thể tái sử dụng, dùng năm này sang năm khác, chỉ việc thay bộ lịch giấy.<br>
+                                            🌼 Lịch giấy phong cách vẽ tay chủ đề " Coffee time " gồm 2 loại có màu và loại không màu, tùy theo sở thích của bạn.<br>
+                                            🌼 Được sử dụng decor cho góc học tập, phòng ngủ, bàn làm việc, làm phụ kiện chụp hình v.v... hoặc làm món quà dành tặng bạn bè, người thân.<br>
+                                            🌼 Mô tả sản phẩm:<br>
+                                            - Kích thước khung gỗ :  21cm x 29cm x 7cm<br>
+                                            - Kích thước lịch giấy : khổ A5: 14.8 x 21 cm<br>
+                                            - Chất liệu khung gỗ : Gỗ xoan, màu tự nhiên của gỗ<br>
+                                            🌼 Bộ sản phẩm bao gồm: 1 khung gỗ lịch , 2 khoen sắt, 1 bộ lịch giấy 12 tờ.
+                                        </p>
+                                    </div>                                    
+                                </div>
+                                <div class="media mb-4">
+                                    <i class="fas fa-award fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">HUY HIỆU</a>  
+                                        <p>
+                                        Huy hiệu tròn có 2 kích thước :  đường kính 5.8 cm và 4.4 cm<br>
+                                        Giá đỡ canvas mini : 10 x10 cm<br>
+                                        Tranh huy hiệu decor - phụ kiện xinh xắn mang dấu ấn đặc trưng duy nhất của bạn. Hình vẽ minh họa được dựa trên hình ảnh chụp của bạn. <br>
+                                        Sản phẩm sử dụng như phụ kiện trang trí góc học tập, bàn làm việc, phòng ngủ,... bạn cũng có thể ghim lên áo, túi tote,v.v...
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tm-col-home mr-0 ml-auto">
+                                <div class="tm-img-home-container"></div>   
+                                <div class="tm-img-home-container2"></div>
+                                <div class="tm-img-home-container3"></div>                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Gallery section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-02.jpg"></div>                   
+                    <section id="gallery" class="tm-section">
+                        <h2 class="tm-text-primary">Sản phẩm của IÊN</h2>
+                        <hr class="mb-5">
+                        <ul class="tm-gallery-links">
+                            <li>
+                                <a href="javascript:void(0);" class="active tm-gallery-link" data-filter="*">
+                                    <i class="fas fa-layer-group tm-gallery-link-icon"></i>
+                                    Tất cả
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="tm-gallery-link" data-filter="signature">
+                                    <i class="fas fa-image tm-gallery-link-icon"></i>
+                                    Tranh & Ảnh ký
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="tm-gallery-link" data-filter="calendar">
+                                    <i class="fas fa-calendar tm-gallery-link-icon"></i>
+                                    Khung lịch
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="tm-gallery-link" data-filter="award">
+                                    <i class="fas fa-award tm-gallery-link-icon"></i>
+                                    Huy hiệu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="tm-gallery-link" data-filter="others">
+                                    <i class="far fa-eye tm-gallery-link-icon"></i>
+                                    Khác
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tm-gallery">
+                            <figure class="effect-honey tm-gallery-item signature">
+                                <img src="img/gallery/tn/signature.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/signature.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item calendar">
+                                <img src="img/gallery/tn/calendar.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/calendar.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>  
+                            <figure class="effect-honey tm-gallery-item award">
+                                <img src="img/gallery/tn/award.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/award.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item others">
+                                <img src="img/gallery/tn/others.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/others.jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item calendar">
+                                <img src="img/gallery/tn/calendar (2).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/calendar (2).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item award">
+                                <img src="img/gallery/tn/award (2).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/award (2).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item signature">
+                                <img src="img/gallery/tn/signature (2).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/signature (2).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item others">
+                                <img src="img/gallery/tn/others (2).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/others (2).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item calendar">
+                                <img src="img/gallery/tn/calendar (3).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/calendar (3).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item signature">
+                                <img src="img/gallery/tn/signature (3).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/signature (3).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item others">
+                                <img src="img/gallery/tn/others (3).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/others (3).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>  
+                            <figure class="effect-honey tm-gallery-item award">
+                                <img src="img/gallery/tn/award (3).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/award (3).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item others">
+                                <img src="img/gallery/tn/others (4).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/others (4).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item calendar">
+                                <img src="img/gallery/tn/calendar (4).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/calendar (4).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item award">
+                                <img src="img/gallery/tn/award (4).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/award (4).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item signature">
+                                <img src="img/gallery/tn/signature (4).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/signature (4).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item others">
+                                <img src="img/gallery/tn/others (5).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/others (5).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item calendar">
+                                <img src="img/gallery/tn/calendar (5).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/calendar (5).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item signature">
+                                <img src="img/gallery/tn/signature (5).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/signature (5).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item award">
+                                <img src="img/gallery/tn/award (5).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/award (5).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>  
+                            <figure class="effect-honey tm-gallery-item award">
+                                <img src="img/gallery/tn/award (6).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/award (6).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item others">
+                                <img src="img/gallery/tn/others (6).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/others (6).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item calendar">
+                                <img src="img/gallery/tn/calendar (6).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/calendar (6).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item signature">
+                                <img src="img/gallery/tn/signature (6).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/signature (6).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item award">
+                                <img src="img/gallery/tn/award (7).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/award (7).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item signature">
+                                <img src="img/gallery/tn/signature (7).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/signature (7).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item others">
+                                <img src="img/gallery/tn/others (7).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/others (7).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item calendar">
+                                <img src="img/gallery/tn/calendar (7).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/calendar (7).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item signature">
+                                <img src="img/gallery/tn/signature (8).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/signature (8).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item calendar">
+                                <img src="img/gallery/tn/calendar (8).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/calendar (8).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>  
+                            <figure class="effect-honey tm-gallery-item award">
+                                <img src="img/gallery/tn/award (8).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/award (8).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item others">
+                                <img src="img/gallery/tn/others (8).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/others (8).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item calendar">
+                                <img src="img/gallery/tn/calendar (9).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/calendar (9).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item award">
+                                <img src="img/gallery/tn/award (9).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/award (9).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item signature">
+                                <img src="img/gallery/tn/signature (9).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/signature (9).jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item others">
+                                <img src="img/gallery/tn/others (9).jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>IÊN</i></h2>
+                                    <a href="img/gallery/others (9).jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                        </div>
+                    </section>
+                </div>
+                <!-- About section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-03.jpg"></div>
+                    <section id="about" class="tm-section">
+                        <h2 class="tm-text-primary">Thành viên của IÊN</h2>
+                        <hr class="mb-5">
+                        
+                        <div class="row tm-row-about">
+                            <div class="tm-col-about tm-col-about-l">
+                                <p class="mb-4">
+                                    Với đội ngũ 200 năm kinh nghiệm
+                             </p>
+                                <p class="mb-4">
+                                    Iên sẽ mang đến cho bạn .... 
+                                </p>
+                                <p class="mb-4">
+                                    Và đây là thông tin về thành viên của chúng tôi
+                                </p>
+                            </div>
+                            <div class="tm-col-about tm-col-about-r">
+                                <img src="img/img-about-01.jpg" alt="Image" class="img-fluid mb-5 tm-img-about">
+                                <p>
+                                    Quý khách cứ yên tấm sử dụng dịch vụ của chúng tôi !!!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <div class="tm-carousel">
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-01.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Thanh Hằng</h3>
+                                        <p>Bà này vẽ chính, marketing, content writer,...</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Sáng Lập và Giám Đốc Điều Hành</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-02.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Long Thiện</h3>
+                                        <p>Chồng</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Đồng Sáng Lập, Phó Giám Đốc</h4>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-03.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Thăng Long</h3>
+                                        <p>dev cùi</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Kĩ thuật</h4>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-04.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Vợ chồng Sỹ Huế</h3>
+                                        <p>Trùm cuối cấp vốn</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Chủ tịch hội đồng quản trị</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-02.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Second</h3>
+                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Accounting Officer</h4>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-03.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Second</h3>
+                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Financial Assistant</h4>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-01.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Third</h3>
+                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Designer</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-02.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Third</h3>
+                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Program Director</h4>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-03.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Three</h3>
+                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Financial Assistant</h4>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-01.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Four</h3>
+                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
+                                        <h4 class="tm-text-secondary tm-about-subtitle">Media Partner</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Contact section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-04.jpg"></div>
+                    <div id="contact" class="tm-section">
+                        <h2 class="tm-text-primary">Liên hệ cho IÊN</h2>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-xl-6 tm-contact-col-l mb-4">
+                                <form id="contact-form" action="" method="POST" class="tm-contact-form">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control rounded-0" placeholder="Tên" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" id="contact-select" name="inquiry">
+                                            <option value="-">Tranh & Ảnh ký ngày cưới</option>
+                                            <option value="sales">Lịch</option>
+                                            <option value="creative">Huy hiệu</option>
+                                            <option value="uiux">Khác</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Lời nhắn" required=></textarea>
+                                    </div>
+            
+                                    <div class="form-group tm-text-right">
+                                        <button type="submit" class="btn btn-primary">Gửi cho IÊN</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xl-6 tm-contact-col-r">
+                                <!-- Map -->
+                                <div class="mapouter mb-4">
+                                    <div class="gmap_canvas">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6572923366816!2d106.64636441472042!3d10.989219492177332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d16a4218db2b%3A0x508d76f5643f105!2zMjggTmd1eeG7hW4gVsSDbiBCw6ksIFBow7ogQ8aw4budbmcsIFRo4bunIEThuqd1IE3hu5l0LCBCw6xuaCBExrDGoW5nLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1660641800284!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+            
+                                <!-- Address -->
+                                <address class="mb-4">
+                                    28 Nguyễn Văn Bé, P. Phú Cường, TP. Thủ Dầu Một, Bình Dương<br>
+                                    Open : 9:00 AM - 9:00 PM ( Off thứ 2 hàng tuần ).<br>
+                                </address>
+            
+                                <!-- Links -->
+                                <ul class="tm-contact-links mb-4">
+                                    <li class="mb-2">
+                                        <a href="tel:+84325562652">
+                                            <i class="fas fa-phone mr-2 tm-contact-link-icon"></i>
+                                            SĐT/Zalo: 032 556 2652
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:ien.designprinting@gmail.com">
+                                            <i class="fas fa-at mr-2 tm-contact-link-icon"></i>
+                                            Email: ien.designprinting@gmail.com
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="tm-contact-social">
+                                    <li><a href="https://www.facebook.com/ien.tiemtranhvecuaien" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/ien.tiemtranhvecuaien/" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://tiktok.com" class="tm-social-link"><i class="fab fa-tiktok"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {{-- Feedback --}}
+
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-03.jpg"></div>
+                    <section id="comments" class="tm-section">
+                        <h2 class="tm-text-primary">Đánh giá từ khách hàng</h2>
+                        <hr class="mb-5">
+                        <div class="mt-5">
+                            <div class="tm-carousel">
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-05.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Chị Tủn</h3>
+                                        <p>Quá đẹp !!! 1 lần không có lần sau</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-06.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Chị Trân</h3>
+                                        <p>Tuyệt vời ! lấy chồng 2 em sẽ ủng hộ tiếp</p>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-07.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Chị Huế</h3>
+                                        <p>Ngon bổ rẻ</p>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-08.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Anh Sỹ</h3>
+                                        <p>Con gái tôi đó mọi người !</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-02.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Second</h3>
+                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-03.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Second</h3>
+                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-01.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Third</h3>
+                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-02.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Third</h3>
+                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-03.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Three</h3>
+                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/about-01.jpg" alt="Featured Item">
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Four</h3>
+                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                <!-- Copyright -->                
+                <div class="tm-section-wrap tm-copyright row">
+                    <div class="col-12">
+                        <div class="text-right">
+                            Copyright 2020 Upright Company
+                        </div> 
+                    </div>
+                </div>                 
+            </div> <!-- .tm-main -->                      
+        </div> <!-- .row -->
+    </div> <!-- .container-fluid -->
+    <script src="js/jquery-3.4.1.min.js"></script>          <!-- https://jquery.com/ -->
+    <script src="js/jquery.singlePageNav.min.js"></script>  <!-- https://github.com/ChrisWojcik/single-page-nav -->
+    <script src="js/parallax/parallax.min.js"></script>     <!-- https://pixelcog.github.io/parallax.js/ -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>     <!-- https://imagesloaded.desandro.com/ -->
+    <script src="js/isotope.pkgd.min.js"></script>          <!-- https://isotope.metafizzy.co/ -->
+    <script src="js/jquery.magnific-popup.min.js"></script> <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <script src="slick/slick.min.js"></script>              <!-- https://kenwheeler.github.io/slick/ -->
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html> 
